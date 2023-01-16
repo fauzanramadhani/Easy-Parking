@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Easy Parking</string>
+    <string name="on_boarding_title_1">Parkir Mudah</string>
+    <string name="on_boarding_title_2">Pasti Sampai</string>
+    <string name="on_boarding_title_3">Lihat dan Ulas</string>
+    <string name="on_boarding_title_4">Simpan Data</string>
+    <string name="on_boarding_text_1">Dengan Easy Parking anda dapa menemukan lokasi parkir terdekat yang tersedia</string>
+    <string name="on_boarding_text_2">Dilengkapi fitur GPS yang dapat memandu anda sampai ke tempat parkir yang di tuju</string>
+    <string name="on_boarding_text_3">Lihat ulasan pengguna lain tentang lokasi parkir dan anda juga dapat memberikan ullasan</string>
+    <string name="on_boarding_text_4">Anda dapat menyimpan data seperti lokasi parkir menggunakan fitur Simpan Tempat</string>
+</resources>
