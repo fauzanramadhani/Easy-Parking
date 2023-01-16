@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import com.belajarkotlin.easyparking.R
 import com.belajarkotlin.easyparking.component.CButton
+import com.belajarkotlin.easyparking.navigation.Screen
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
 import com.google.accompanist.pager.rememberPagerState
@@ -78,9 +79,9 @@ fun OnBoarding(
                             .width(120.dp),
                         enabledState = true,
                     ) {
-//                        navController.navigate(route = Screen.Register.route) {
-//                            launchSingleTop = true
-//                        }
+                        navHostController.navigate(route = Screen.Register.route) {
+                            launchSingleTop = true
+                        }
 
                     }
                     CButton(
@@ -90,9 +91,9 @@ fun OnBoarding(
                             .width(120.dp),
                         enabledState = true,
                     ) {
-//                        navController.navigate(route = Screen.Login.route) {
-//                            launchSingleTop = true
-//                        }
+                        navHostController.navigate(route = Screen.Login.route) {
+                            launchSingleTop = true
+                        }
                     }
                 }
             } else {
